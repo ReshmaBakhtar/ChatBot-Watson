@@ -1,0 +1,6 @@
+facebook for developers:
+
+https://developers.facebook.com/docs/messenger-platform/reference/messenger-profile-api
+
+How to create fb page for chatbot
+https://www.youtube.com/watch?v=FdsjS7ZnPLw

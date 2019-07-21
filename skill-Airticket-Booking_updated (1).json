@@ -1,0 +1,2492 @@
+{
+  "name": "Airticket Booking_updated",
+  "intents": [
+    {
+      "intent": "hand_baggage_weight",
+      "examples": [
+        {
+          "text": "How much hand baggage weight allowance?"
+        },
+        {
+          "text": "hand Baggage Allowed"
+        },
+        {
+          "text": "What is the hand baggage weight allowance?"
+        },
+        {
+          "text": "Laptop weight in flight"
+        },
+        {
+          "text": "Can you tell me the hand baggage weight allowance?"
+        },
+        {
+          "text": "how much quantity for hand baggage is allowed?"
+        }
+      ]
+    },
+    {
+      "intent": "yes",
+      "examples": [
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "y"
+        },
+        {
+          "text": "Yup"
+        },
+        {
+          "text": "yep"
+        },
+        {
+          "text": "sure"
+        },
+        {
+          "text": "Yeah"
+        },
+        {
+          "text": "of course"
+        }
+      ]
+    },
+    {
+      "intent": "any_other_query",
+      "examples": [
+        {
+          "text": "any other query"
+        },
+        {
+          "text": "more queries"
+        },
+        {
+          "text": "one more query"
+        }
+      ]
+    },
+    {
+      "intent": "terminalsCount",
+      "examples": [
+        {
+          "text": "How many terminal do delhi airport have"
+        },
+        {
+          "text": "number of terminals"
+        },
+        {
+          "text": "How many terminals does the airport have?"
+        },
+        {
+          "text": "No. of terminals"
+        }
+      ],
+      "description": "No. of terminals on airport"
+    },
+    {
+      "intent": "ShareBoardingPass",
+      "examples": []
+    },
+    {
+      "intent": "wifiConnection",
+      "examples": [
+        {
+          "text": "connect with wifi"
+        },
+        {
+          "text": "How do you connect to the airport WIFI?"
+        },
+        {
+          "text": "How to access internet"
+        },
+        {
+          "text": "How to connect with wifi on Delhi airport"
+        }
+      ]
+    },
+    {
+      "intent": "airportSecurity",
+      "examples": [
+        {
+          "text": "Can I go through airport security early?"
+        },
+        {
+          "text": "airport security"
+        },
+        {
+          "text": "Can we go through airport security early?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "baggageAllowance",
+      "examples": [
+        {
+          "text": "Baggage Allowance"
+        },
+        {
+          "text": "FAQ regarding Baggage Allowance"
+        }
+      ],
+      "description": "Baggage Allowance"
+    },
+    {
+      "intent": "No",
+      "examples": [
+        {
+          "text": "Not sure"
+        },
+        {
+          "text": "Not at all"
+        },
+        {
+          "text": "Nup"
+        },
+        {
+          "text": "No"
+        }
+      ]
+    },
+    {
+      "intent": "meal_for_baby",
+      "examples": [
+        {
+          "text": "Do airlines have a specific meal of babies?"
+        },
+        {
+          "text": "Can we have specific meals for Baby in airline?"
+        },
+        {
+          "text": "Do airline have food for babies?"
+        }
+      ]
+    },
+    {
+      "intent": "checkInBefore",
+      "examples": [
+        {
+          "text": "Can I check in 1 hour before flight?"
+        },
+        {
+          "text": "Can we checkin before?"
+        }
+      ]
+    },
+    {
+      "intent": "laptop_in_baggage",
+      "examples": [
+        {
+          "text": "Is laptop counted in allowed 7 kgs hand baggage allowance?"
+        },
+        {
+          "text": "Do Laptop  weight is included in 7 kgs hand baggage?"
+        },
+        {
+          "text": "Laptop in hand baggage"
+        },
+        {
+          "text": "is laptop included or excluded in 7 kgs hand baggage allowance?"
+        },
+        {
+          "text": "is laptop included in hand baggage allowance?"
+        },
+        {
+          "text": "Laptop weight"
+        }
+      ]
+    },
+    {
+      "intent": "babyTravel",
+      "examples": [
+        {
+          "text": "Child travel"
+        },
+        {
+          "text": "baby Travel"
+        },
+        {
+          "text": "Baby Travel FAQ's"
+        }
+      ],
+      "description": "Baby travel FAQ's"
+    },
+    {
+      "intent": "connectingTimeAtAirport",
+      "examples": [
+        {
+          "text": "What should be minimum time interval between connecting flights at IGI airport T3?"
+        },
+        {
+          "text": "What is the minimum connecting time ate the airport?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "SearchFlight",
+      "examples": [
+        {
+          "text": "Flight Search"
+        },
+        {
+          "text": "Search for Flight"
+        },
+        {
+          "text": "Search Flight"
+        }
+      ]
+    },
+    {
+      "intent": "next",
+      "examples": [
+        {
+          "text": "query"
+        },
+        {
+          "text": "Enter you query"
+        }
+      ]
+    },
+    {
+      "intent": "services_available",
+      "examples": [
+        {
+          "text": "What all the services available at Delhi Airport?"
+        },
+        {
+          "text": "What all the services available at Airport?"
+        },
+        {
+          "text": "What all the services available at Indira gandhi international Airport?"
+        }
+      ],
+      "description": "services available at Airport"
+    },
+    {
+      "intent": "ShareOnEmail",
+      "examples": [
+        {
+          "text": "Share on Email"
+        },
+        {
+          "text": "share on Email ID"
+        },
+        {
+          "text": "Share to my email id"
+        },
+        {
+          "text": "share to emailid"
+        }
+      ]
+    },
+    {
+      "intent": "additionalfaq",
+      "examples": [
+        {
+          "text": "Additional FAQ's"
+        },
+        {
+          "text": "any other queries"
+        },
+        {
+          "text": "enter your query"
+        },
+        {
+          "text": "more queries"
+        },
+        {
+          "text": "kindly enter your query"
+        },
+        {
+          "text": "other queries"
+        }
+      ]
+    },
+    {
+      "intent": "Later",
+      "examples": [
+        {
+          "text": "later"
+        }
+      ]
+    },
+    {
+      "intent": "seat_with_infant",
+      "examples": [
+        {
+          "text": "Can you tell me which seat should one choose if carrying an infant?"
+        },
+        {
+          "text": "Seat details for the passenger carrying an infant"
+        },
+        {
+          "text": "What seat must a passenger book when he or she is carrying an infant?"
+        },
+        {
+          "text": "Can you give me idea about the seat need to be book while carrying an infant in the airplane?"
+        }
+      ]
+    },
+    {
+      "intent": "faq",
+      "examples": [
+        {
+          "text": "i have a question"
+        },
+        {
+          "text": "FAQ"
+        },
+        {
+          "text": "FAQ's"
+        },
+        {
+          "text": "Frequently asked questions"
+        },
+        {
+          "text": "Ask Question"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "allowed_baggage_dimension_transalantic_flight",
+      "examples": [
+        {
+          "text": "Tell me the dimension allowed baggage in airplane?"
+        },
+        {
+          "text": "Measurement for the allowed bagggage?"
+        },
+        {
+          "text": "What is allowed baggage dimension on transatlantic flights?"
+        },
+        {
+          "text": "What is the dimension allowed baggage in airplane?"
+        },
+        {
+          "text": "Allowed baggage Dimension"
+        }
+      ]
+    },
+    {
+      "intent": "onlineCheckIn",
+      "examples": [
+        {
+          "text": "Can we check in online if I have luggage?"
+        },
+        {
+          "text": "Should I check in online if I have luggage?"
+        },
+        {
+          "text": "Should I checkin online if I have luggage?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ShareOnWhatsApp",
+      "examples": [
+        {
+          "text": "Share On WhatsApp"
+        },
+        {
+          "text": "Share on my whatsapp number"
+        },
+        {
+          "text": "hare on whatsapp"
+        },
+        {
+          "text": "Share To whatsapp"
+        }
+      ]
+    },
+    {
+      "intent": "printBoardingPass",
+      "examples": [
+        {
+          "text": "Printing of boarding pass"
+        },
+        {
+          "text": "Can you print out your boarding pass at home?"
+        }
+      ]
+    },
+    {
+      "intent": "airportDetails",
+      "examples": [
+        {
+          "text": "Airport Details"
+        },
+        {
+          "text": "Kindly enter airport details"
+        }
+      ]
+    },
+    {
+      "intent": "airport_checkin",
+      "examples": [
+        {
+          "text": "What do I need to bring to the airport to check in?"
+        },
+        {
+          "text": "things needed for airport checkin?"
+        }
+      ],
+      "description": "Airport checkin"
+    },
+    {
+      "intent": "Affrimative",
+      "examples": [
+        {
+          "text": "Yeah"
+        },
+        {
+          "text": "Sure"
+        },
+        {
+          "text": "ya"
+        },
+        {
+          "text": "yes please"
+        },
+        {
+          "text": "Yes"
+        }
+      ]
+    },
+    {
+      "intent": "book-ticket",
+      "examples": [
+        {
+          "text": "please issue me tickets"
+        },
+        {
+          "text": "london  delhi today"
+        },
+        {
+          "text": "pune mumbai today"
+        },
+        {
+          "text": "i want flight from"
+        },
+        {
+          "text": "mumbai delhi today"
+        },
+        {
+          "text": "london to delho for today"
+        }
+      ]
+    },
+    {
+      "intent": "greeting",
+      "examples": [
+        {
+          "text": "Good Evening"
+        },
+        {
+          "text": "Hola"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Good Afternoon"
+        },
+        {
+          "text": "Good Morning"
+        },
+        {
+          "text": "How are you"
+        }
+      ]
+    },
+    {
+      "intent": "NoForSharing",
+      "examples": [
+        {
+          "text": "No, Don't Want to share"
+        },
+        {
+          "text": "Don't Want to share"
+        }
+      ]
+    },
+    {
+      "intent": "terminalDetails",
+      "examples": [
+        {
+          "text": "Can you provide details for each terminal at airport?"
+        },
+        {
+          "text": "Can you provide details for each terminal at Indra gandhi international airport"
+        },
+        {
+          "text": "Can you provide details for each terminal at Delhi airport"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "BaggageInfo",
+      "examples": []
+    },
+    {
+      "intent": "ProceedCheckIn",
+      "examples": [
+        {
+          "text": "Proceed Check-In"
+        }
+      ]
+    },
+    {
+      "intent": "distance",
+      "examples": [
+        {
+          "text": "How far is the nearest metro station form the airport exit?"
+        },
+        {
+          "text": "Distance from Delhi airport to metro station"
+        }
+      ]
+    },
+    {
+      "intent": "items_allowed_notallowed",
+      "examples": [
+        {
+          "text": "Allowed Items and not allowed items"
+        },
+        {
+          "text": "Allowed items"
+        },
+        {
+          "text": "allowed and non-allowed items"
+        },
+        {
+          "text": "items not allowed"
+        },
+        {
+          "text": "What items are allowed and not allowed on airplane?"
+        },
+        {
+          "text": "Items restricted"
+        }
+      ]
+    },
+    {
+      "intent": "CheckinFlight",
+      "examples": [
+        {
+          "text": "Check In Flight"
+        },
+        {
+          "text": "CheckIn Flight"
+        }
+      ]
+    },
+    {
+      "intent": "baggage_for_infants",
+      "examples": [
+        {
+          "text": "Baggage Allowance weight and dimension for babies"
+        },
+        {
+          "text": "Can you tell me how much is the baggage allowance for the infants?"
+        },
+        {
+          "text": "Can you tell me how much is the baggage allowance for the babies?"
+        },
+        {
+          "text": "What is baggage allowance for infants?"
+        },
+        {
+          "text": "Details for the Baggage allowance for the infants"
+        }
+      ]
+    },
+    {
+      "intent": "fare_for_infants",
+      "examples": [
+        {
+          "text": "What is the fare for  infant on international flights?"
+        },
+        {
+          "text": "What is fare charged on international flights for infants?"
+        },
+        {
+          "text": "Details of fare charges for infant  on international flights"
+        },
+        {
+          "text": "How much charge is applicable for infants on international flights?"
+        },
+        {
+          "text": "Do any additional charges are applicable for infants on flight?"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-currency",
+      "values": []
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "sys-person",
+      "values": []
+    },
+    {
+      "entity": "sys-location",
+      "values": []
+    },
+    {
+      "entity": "pnrnumber",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "OIKJ9V",
+          "patterns": [
+            "^[a-zA-z0-9]*$"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "HUHUHY",
+          "patterns": [
+            "(\\d{6})",
+            "^[a-zA-z0-9]*$",
+            "\\b[a-zA-Z0-9]{6}\\b"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "YGHJNM",
+          "patterns": [
+            "(\\d{6})"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-07-10"
+    }
+  },
+  "description": "This chatbot will be used to book flight for Jet Airways",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Details of Terminals at IGI Airport",
+      "output": {
+        "text": {
+          "values": [
+            "Terminal 1, is used by low cost carriers such as GoAir, IndiGo and SpiceJet, and is divided in Terminal 1-C, used for domestic arrivals, and Terminal 1-D, used for departures, it can handle 15 million passengers annually. It is nowadays closed due to improvement works and all the flights were transferred to Terminal 2.\n\nTerminal 2, it has been redesigned to temporary host the low cost carriers of Terminal 1. Once Terminal 1 will reopen, it will be demolished to build the new Terminal 4.\n\nTerminal 3 is the newest terminal, it was opened in 2010 and is one of the biggest terminals in the world, being able to handle 40 million passengers per year. Other terminals like T1A, T1B are unused nowadays.\n\nAll International flights are operated from T3, Domestic Flights are operated in T1 or T3, depending of the Carrier. Lowcost Carriers (GoAir, IndiGo and SpiceJet) are operated from Terminal 1, while the other carriers are operated from T3. Check below some information you must now of both terminals."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1546949644806",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1546949644806"
+      },
+      "conditions": "#terminalDetails",
+      "dialog_node": "node_7_1546950633396",
+      "previous_sibling": "node_8_1546950992687"
+    },
+    {
+      "type": "standard",
+      "title": "Connecting time on airport",
+      "output": {
+        "text": {
+          "values": [
+            "Actually, the minimum time for a connection is about 20 - 30 minutes for domestic and at least 1–2 hours for international."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1546949644806",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1546949644806"
+      },
+      "conditions": "#connectingTimeAtAirport",
+      "dialog_node": "node_8_1546950992687",
+      "previous_sibling": "node_6_1546950388893"
+    },
+    {
+      "type": "standard",
+      "title": "number of terminals",
+      "output": {
+        "text": {
+          "values": [
+            "Indira Gandhi Airport has three active passenger terminals: Terminal 1, Terminal 2 and Terminal 3. Terminal 2 is home to many of the low cost flights of Terminal 1 due to its refurbishing works."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1546949644806",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1546949644806"
+      },
+      "conditions": "#terminalsCount",
+      "dialog_node": "node_6_1546950388893",
+      "previous_sibling": "node_5_1546950213357"
+    },
+    {
+      "type": "standard",
+      "title": "Services available at Airport",
+      "output": {
+        "text": {
+          "values": [
+            "Below are the services available at the Indira Gandhi International airport;\n\nMedical Care\nATMs\nForeign Currency Exchange\nLounges and Hotels\nLost & Found Baggage\n\nOther services are:\n- Beauty services\n- Fashion and Accessories\n- Jewelry and Watches\n- Gifts and Souvenirs\n- Cosmetics\n- Perfumes\n- Toys\n- Telecommunication services\n- Bookings for hotels\n- Tours\n- Transportation (metro rail and buses)\n- Pet N’ Fly (for animals that must travel through New Delhi airport)\n- Baggage Wrap\n"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1546949644806",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1546949644806"
+      },
+      "conditions": "#services_available",
+      "dialog_node": "node_1_1547017358394",
+      "previous_sibling": "node_7_1546950633396"
+    },
+    {
+      "type": "standard",
+      "title": "Wifi Connection",
+      "output": {
+        "text": {
+          "values": [
+            "To get online, locate the connection named, “DEN Airport Free Wi-Fi.” Select this network and click connect, and open an internet browser to see the DEN Airport welcome page. The second option is connecting to Wi-Fi through Boingo. Boingo Wireless provides free and premium Wi-Fi Internet access throughout the airport."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1546949644806",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1546949644806"
+      },
+      "conditions": "#wifiConnection",
+      "dialog_node": "node_5_1546950213357",
+      "previous_sibling": "node_4_1546949699437"
+    },
+    {
+      "type": "standard",
+      "title": "Distance of Metro station",
+      "output": {
+        "text": {
+          "values": [
+            "Distance between Igi Airport and Nearest Metro Station is 18 kms or 11.2 miles or 9.7 nautical miles."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1546949644806",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1546949644806"
+      },
+      "conditions": "#distance",
+      "dialog_node": "node_4_1546949699437"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1546440070057",
+      "metadata": {},
+      "variable": "$hand_baggage_weight",
+      "dialog_node": "slot_13_1546851952328",
+      "previous_sibling": "slot_10_1546851911811"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The baggage allowance in economy cabin on transatlantic flights is - 2PC's of 23kgs each and in business cabin is - 2 PC's of 32kgs each."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1546440070057",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "#baggageAllowance",
+      "dialog_node": "node_7_1546595830083",
+      "previous_sibling": "node_21_1546852622817"
+    },
+    {
+      "type": "frame",
+      "output": {},
+      "parent": "node_5_1546440070057",
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_21_1546852622817",
+      "digress_out": "allow_all",
+      "previous_sibling": "slot_13_1546851952328",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1546440070057",
+      "metadata": {},
+      "variable": "$baggageAllowance",
+      "dialog_node": "slot_10_1546851911811"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1546851911811",
+      "event_name": "focus",
+      "dialog_node": "handler_12_1546851911811",
+      "previous_sibling": "handler_11_1546851911811"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_10_1546851911811",
+      "context": {
+        "baggageAllowance": "#baggageAllowance"
+      },
+      "conditions": "#baggageAllowance",
+      "event_name": "input",
+      "dialog_node": "handler_11_1546851911811"
+    },
+    {
+      "type": "standard",
+      "title": "User's query",
+      "output": {
+        "text": {
+          "values": [
+            "                                                                                                                                                          \n                                                                                                                                                          \nIf you want to know anything about Indira Gandhi International Airport , You can enter here"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1546602321580",
+      "metadata": {},
+      "conditions": "#next",
+      "dialog_node": "node_3_1546949644806"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1548766763089",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1548766763089",
+      "previous_sibling": "handler_3_1548766763089"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_2_1548766763089",
+      "event_name": "input",
+      "dialog_node": "handler_3_1548766763089"
+    },
+    {
+      "type": "standard",
+      "title": "Additional FAQ's",
+      "output": {
+        "text": {
+          "values": [
+            "                                   \n                                                                                                                                                      \n If you have any further queries, you can enter here"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1546429567503",
+      "metadata": {},
+      "conditions": "#additionalfaq",
+      "dialog_node": "node_17_1546496629905",
+      "previous_sibling": "node_13_1546602321580"
+    },
+    {
+      "type": "standard",
+      "title": "Baggage Allowance",
+      "output": {
+        "text": {
+          "values": [
+            "For viewing Baggage Policy on Etihad Airways,                                                         \nPlease enter the FROM and TO countries"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1546429567503",
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#baggageAllowance",
+      "dialog_node": "node_5_1546440070057",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_17_1546496629905"
+    },
+    {
+      "type": "standard",
+      "title": "Airport deatils",
+      "output": {
+        "text": {
+          "values": [
+            "                                                                                                                                                \n                                                                                                                                                      \nWelcome to Indira Gandhi international Airport . "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1546429567503",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1546949644806"
+      },
+      "conditions": "#airportDetails",
+      "dialog_node": "node_13_1546602321580",
+      "previous_sibling": "node_10_1546495707527"
+    },
+    {
+      "type": "standard",
+      "title": "Baby Travel",
+      "output": {
+        "text": {
+          "values": [
+            " A baby whose age is below 24 months is considered as an Infant. A baby whose age is above 2 years and below 12 years is considered as an Child.                                                                                                                                                        "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1546429567503",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_23_1546854412125"
+      },
+      "conditions": "#babyTravel",
+      "dialog_node": "node_10_1546495707527"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_16_1505218737399",
+      "context": {
+        "arrival": "@sys-location"
+      },
+      "metadata": {},
+      "conditions": "@sys-location",
+      "event_name": "input",
+      "dialog_node": "handler_17_1505218737400",
+      "previous_sibling": "handler_18_1505218737400"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter destination city"
+      },
+      "parent": "slot_16_1505218737399",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_18_1505218737400"
+    },
+    {
+      "type": "frame",
+      "title": "Details",
+      "output": {},
+      "parent": "node_1_1507713870756",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "true",
+      "dialog_node": "node_1_1505216043847"
+    },
+    {
+      "type": "standard",
+      "title": "CheckInFlight",
+      "output": {
+        "text": {
+          "values": [
+            "Please Enter Your PNR number"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Welcome",
+      "metadata": {},
+      "conditions": "#CheckinFlight",
+      "dialog_node": "node_1_1507875856747",
+      "previous_sibling": "node_1_1507713870756"
+    },
+    {
+      "type": "standard",
+      "title": "FAQ's",
+      "output": {
+        "text": {
+          "values": [
+            "Please choose following options _FAQ_"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Welcome",
+      "metadata": {},
+      "conditions": "#faq",
+      "dialog_node": "node_1_1546429567503",
+      "previous_sibling": "node_1_1507875856747"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Please enter departure to destination  and travel date"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Welcome",
+      "metadata": {},
+      "conditions": "#SearchFlight",
+      "dialog_node": "node_1_1507713870756"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_2_1505228037119",
+      "dialog_node": "node_6_1505230692435",
+      "previous_sibling": "node_5_1505230690896"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Flight Details:  From : $destination  To:$arrival  time:10:00"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1505228037119",
+      "conditions": "$destination != null && $arrival != null",
+      "dialog_node": "node_5_1505230690896"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_13_1505218721337",
+      "context": {
+        "destination": "@sys-location"
+      },
+      "metadata": {},
+      "conditions": "@sys-location",
+      "event_name": "input",
+      "dialog_node": "handler_14_1505218721337",
+      "previous_sibling": "handler_15_1505218721337"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter departure city"
+      },
+      "parent": "slot_13_1505218721337",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_15_1505218721337"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1546430842320",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_9_1546851430993",
+      "previous_sibling": "node_8_1546851415115"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The hand baggage weight allowance is 7kgs."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1546430842320",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "#hand_baggage_weight",
+      "dialog_node": "node_8_1546851415115"
+    },
+    {
+      "type": "standard",
+      "title": "Online Checkin",
+      "output": {
+        "text": {
+          "values": [
+            " If you have luggage to check, checking in online can still save you a little time; some airlines have a designated desk where you can drop off your bag without having to go through the whole check-in process."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_17_1546496629905",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_17_1546496629905"
+      },
+      "conditions": "#onlineCheckIn",
+      "dialog_node": "node_1_1546930103074",
+      "previous_sibling": "node_6_1546497551358"
+    },
+    {
+      "type": "standard",
+      "title": "Airport security",
+      "output": {
+        "text": {
+          "values": [
+            "Usually the check-in starts 3 hours before the departure. If you don't have luggage to check-in, you can go through security 3 hours in advance and sometimes more than 3 hours in advance . "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_17_1546496629905",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_17_1546496629905"
+      },
+      "conditions": "#airportSecurity",
+      "dialog_node": "node_6_1546497551358",
+      "previous_sibling": "node_4_1546497319151"
+    },
+    {
+      "type": "standard",
+      "title": "check in before 1 hour",
+      "output": {
+        "text": {
+          "values": [
+            "For domestic flights, you should arrive at least 1 hour before your flight departure time, and for international flights, you should make sure you arrive at least 2 hours beforehand. "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_17_1546496629905",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_17_1546496629905"
+      },
+      "conditions": "#checkInBefore",
+      "dialog_node": "node_4_1546497319151",
+      "previous_sibling": "node_2_1546497033580"
+    },
+    {
+      "type": "standard",
+      "title": "Airport Checkin",
+      "output": {
+        "text": {
+          "values": [
+            "Have your ID and boarding pass out and ready for the TSA official.\nTake off your shoes, belt, and any jewelry that may set off the metal detector\n If you have a clear-plastic bag of liquids or gels in your carry-on bag, take it out and place it in a bin next to your shoes, belt, etc."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_17_1546496629905",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_17_1546496629905"
+      },
+      "conditions": "#airport_checkin",
+      "dialog_node": "node_2_1546930199184",
+      "previous_sibling": "node_1_1546930103074"
+    },
+    {
+      "type": "standard",
+      "title": "Printing Boarding pass at home",
+      "output": {
+        "text": {
+          "values": [
+            "Most airlines permit online check-in up to 24 hours before departure. Once you've completed the check-in process, you can print your boarding pass. \none can also have the boarding pass on email."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_17_1546496629905",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_17_1546496629905"
+      },
+      "conditions": "#printBoardingPass",
+      "dialog_node": "node_2_1546497033580"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1547705691615",
+      "context": {
+        "pnrnumber": "@pnrnumber.literal"
+      },
+      "metadata": {},
+      "conditions": "@pnrnumber",
+      "event_name": "input",
+      "dialog_node": "handler_5_1547705691615",
+      "previous_sibling": "handler_6_1547705691615"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "You have not entered your PNR number. Please enter your PNR number"
+      },
+      "parent": "slot_4_1547705691615",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_6_1547705691615"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_21_1548315372410",
+      "metadata": {},
+      "variable": "$person",
+      "dialog_node": "slot_23_1548315458999",
+      "previous_sibling": "node_26_1548315505615"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You have entered same PNR and lastname. Please enter your PNR and last name correctly"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1548315372410",
+      "metadata": {},
+      "conditions": "$pnrnumber == $person",
+      "dialog_node": "node_22_1548315458988",
+      "previous_sibling": "node_4_1507892147745"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Do you have any dangerous goods or hazardous materials in your bag? \n\nFore more details, Please visit : \n\nhttps://www.etihad.com/en-us/before-you-fly/baggage-information/prohibited-items/\n\n_yesNo_"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1548315372410",
+      "metadata": {},
+      "conditions": "#ProceedCheckIn",
+      "dialog_node": "node_4_1507892147745",
+      "previous_sibling": "node_5_1507892201924"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Please wait while Fetching Deatils for your PNR $pnrnumber and LastName $person  _checkin_"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1548315372410",
+      "metadata": {},
+      "conditions": "$pnrnumber != $person",
+      "dialog_node": "node_26_1548315505615",
+      "previous_sibling": "node_22_1548315458988"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Thanks. have a good Day"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1548315372410",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "#Later",
+      "dialog_node": "node_5_1507892201924"
+    },
+    {
+      "type": "frame",
+      "title": "Details for PNR",
+      "output": {
+        "text": {
+          "values": [
+            "Please enter your LastName"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1507875856747",
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1507875893333",
+      "digress_out": "allow_all",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter From Country"
+      },
+      "parent": "slot_2_1549451463134",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1549451463134",
+      "previous_sibling": "handler_3_1549451463134"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1549451463134",
+      "context": {
+        "FromCountry": "@sys-location"
+      },
+      "metadata": {},
+      "conditions": "@sys-location",
+      "event_name": "input",
+      "dialog_node": "handler_3_1549451463134"
+    },
+    {
+      "type": "standard",
+      "title": "Baggage allowance for infants",
+      "output": {
+        "text": {
+          "values": [
+            "Children traveling on an international ticket that is 10% of the adult fare are allowed one checked bag up to 10kgs with a maximum outside dimension (length+width+height) of 45 inches plus one checked fully collapsible stroller or push-chair."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_23_1546854412125",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_23_1546854412125"
+      },
+      "conditions": "#baggage_for_infants",
+      "dialog_node": "node_12_1546495989605",
+      "previous_sibling": "node_13_1546496050027"
+    },
+    {
+      "type": "standard",
+      "title": "meal for Baby",
+      "output": {
+        "text": {
+          "values": [
+            "Yes the airlines serve a baby meal for the infant and it can be requested with a meal code - BBML."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_23_1546854412125",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_23_1546854412125"
+      },
+      "conditions": "#meal_for_baby",
+      "dialog_node": "node_13_1546496050027",
+      "previous_sibling": "node_14_1546496106195"
+    },
+    {
+      "type": "standard",
+      "title": "fare for infants",
+      "output": {
+        "text": {
+          "values": [
+            "The infant fare on international travel is always 10% of the adult fare."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_23_1546854412125",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_23_1546854412125"
+      },
+      "conditions": "#fare_for_infants",
+      "dialog_node": "node_11_1546495890299",
+      "previous_sibling": "node_12_1546495989605"
+    },
+    {
+      "type": "standard",
+      "title": "Seat for Passenger carrying Infant",
+      "output": {
+        "text": {
+          "values": [
+            "The passengers who have infant along with them should always book a bassinet seat so that the baby can be rested in the bassinet after air borne. The booking code for bassinet is BSCT."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_23_1546854412125",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_23_1546854412125"
+      },
+      "conditions": "#seat_with_infant",
+      "dialog_node": "node_14_1546496106195"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Allowed Baggage Allowance is :  Economy Class: 40kgBusiness Class: 40kgFirst Class: 50kg"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1549607947617"
+      },
+      "conditions": "$FromCountry == \"GCC\" || $FromCountry == \"Lebanon\" || $FromCountry == \"Jordan\" && $ToCountry == \"Africa\"",
+      "dialog_node": "node_4_1549533000592",
+      "previous_sibling": "node_3_1549532073242"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Allowed Baggage Allowance is :  \n\nEconomy Deal, Saver and Classic: 30kg\nEconomy Flex: 35kg\nBusiness: 40kg\nFirst: 50kg"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1549607947617"
+      },
+      "conditions": "$FromCountry == \"Philippines\" || $FromCountry == \"Pakistan\" || $FromCountry == \"Bangladesh\" && $ToCountry == \"Europe\" || $ToCountry == \"Azerbaijan\" || $ToCountry == \"Belarus\" || $ToCountry == \"Belgium\" || $ToCountry == \"France\" || $ToCountry == \"Germany\" || $ToCountry == \"Greece\" && $ToCountry == \"Ireland\" || $ToCountry == \"Italy\" || $ToCountry == \"Netherlands\" || $ToCountry == \"Russia Serbia\" || $ToCountry == \"Spain\" || $ToCountry == \"Switzerland\" || $ToCountry == \"Turkey\"  || $ToCountry == \"United Kingdom\"",
+      "dialog_node": "node_11_1549878461165",
+      "previous_sibling": "node_10_1549877604217"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Economy Deal, Saver and Classic: 30kg\nEconomy Flex: 35kg\nBusiness: 40kg\nFirst: 50kg"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1549607947617"
+      },
+      "conditions": "$FromCountry == \"India\" && $ToCountry == \"Europe\" || $ToCountry == \"Azerbaijan\" || $ToCountry == \"Belarus\" || $ToCountry == \"Belgium\" || $ToCountry == \"France\" || $ToCountry == \"Germany\" || $ToCountry == \"Greece\" || $ToCountry == \"Ireland\" || $ToCountry == \"Italy\" || $ToCountry == \"Netherlands\" || $ToCountry == \"Russia Serbia\" || $ToCountry == \"Spain\" || $ToCountry == \"Switzerland\" || $ToCountry == \"Turkey\" || $ToCountry == \"United Kingdom\"",
+      "dialog_node": "node_14_1549879877204",
+      "previous_sibling": "node_13_1549879528543"
+    },
+    {
+      "type": "standard",
+      "title": "More info Regarding Baggage",
+      "output": {
+        "text": {
+          "values": [
+            "Always remember the below note for Baggage allowance                                                                                                                                                                  Note: The weight of each item must not exceed 32kg                                                                                                                                                  \n                                                                                                                                                \n Fore more Information on Baggage policy, Click on the below mentioned Links :                                                                                                        \n\nFor Baggage Guide :  https://www.etihad.com/en-us/before-you-fly/baggage-information/baggage-guide/                                                         \n\n\nFor Excess Baggage : https://www.etihad.com/en-us/before-you-fly/baggage-information/excess/\n\nFor Prohibited Bags : https://www.etihad.com/en-us/before-you-fly/baggage-information/prohibited-items/                                                                                             "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "context": {
+        "ToCountry": null,
+        "FromCountry": null
+      },
+      "metadata": {},
+      "conditions": "#BaggageInfo",
+      "dialog_node": "node_10_1549607947617",
+      "previous_sibling": "node_22_1546853270457"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "From and To countries cannot be same                                                                                                                                                                                                                                                                                          "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "conditions": "$FromCountry == $ToCountry",
+      "dialog_node": "node_1_1549451463124",
+      "previous_sibling": "node_10_1549607947617"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Allowed Baggage Allowance is :   Economy Class: 40kg Business Class: 40kg First Class: 50kg Note: The weight of each item must not exceed 32kg   GCC: UAE, Bahrain, Kuwait, Oman, Saudi Arabia"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1549607947617"
+      },
+      "conditions": "$FromCountry == \"GCC\" || $FromCountry == \"UAE\" || $FromCountry == \"Bahrain\" || $FromCountry == \"Kuwait\" || $FromCountry == \"Oman\" || $FromCountry == \"Saudi Arabia\" && $ToCountry == \"Bangladesh\" || $ToCountry == \"Indonesia\" || $ToCountry == \"Philippines\"",
+      "dialog_node": "node_6_1549541114814",
+      "previous_sibling": "node_5_1549540728621"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Allowed Baggage Allowance is :  \n\nEconomy Deal, Saver and Classic: 30kg\nEconomy Flex: 35kg\nBusiness: 40kg\nFirst: 50kg"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1549607947617"
+      },
+      "conditions": "$FromCountry == \"United Kingdom\" || $FromCountry == \"Europe\" || $FromCountry == \"Azerbaijan\" || $FromCountry == \"Belarus\" || $FromCountry == \"Belgium\" || $FromCountry == \"France\" || $FromCountry == \"Germany\" || $FromCountry == \"Greece\" || $FromCountry == \"Ireland\" || $FromCountry == \"Italy\" || $FromCountry == \"Netherlands\" || $FromCountry == \"Russia Serbia\" || $FromCountry == \"Spain\" || $FromCountry == \"Switzerland\" || $FromCountry == \"Turkey\" && ToCountry == \"India\"",
+      "dialog_node": "node_13_1549879528543",
+      "previous_sibling": "node_12_1549878636738"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Allowed Baggage Allowance is : \n\nEconomy Deal: Hand Bagagge Only\nEconomy Saver/Classic/Flex: 40Kg\nBusiness: 40Kg\nFirst: 50Kg"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1549607947617"
+      },
+      "conditions": "$FromCountry == \"Egypt\" && $ToCountry == \"UAE\" || $FromCountry == \"UAE\" && $ToCountry == \"Egypt\"",
+      "dialog_node": "node_17_1549881038976",
+      "previous_sibling": "node_16_1549880804668"
+    },
+    {
+      "type": "standard",
+      "title": "laptop weight count in hand Baggage",
+      "output": {
+        "text": {
+          "values": [
+            "Yes the 7 kgs hand baggage allowance is including laptop weight."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_21_1546852622817"
+      },
+      "conditions": "#laptop_in_baggage",
+      "dialog_node": "node_9_1546441762290",
+      "previous_sibling": "node_8_1546441657976"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Allowed Baggage Allowance is :  \n\nEconomy Deal, Saver and Classic: 30kg\nEconomy Flex: 35kg\nBusiness Class: 40kg\nFirst Class: 50kg"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1549607947617"
+      },
+      "conditions": "$ToCountry == \"GCC\" || $ToCountry == \"UAE\" || $ToCountry == \"Bahrain\" || $ToCountry == \"Kuwait\" || $ToCountry == \"Oman\" || $ToCountry == \"Saudi Arabia\" && $FromCountry == \"India\" || $FromCountry == \"Pakistan\" || $FromCountry == \"Nepal\" || $FromCountry == \"Bhutan\" || $FromCountry == \"Maldives\" || $FromCountry == \"Sri Lanka\" && $FromCountry != \"Bangladesh\"",
+      "dialog_node": "node_4_1549874744297",
+      "previous_sibling": "node_3_1549874248614"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Allowed Baggage Allowance is : \n\nEconomy Deal: Hand baggage only*\nEconomy Classic and Saver: 30kg \nEconomy Flex: 35kg\nBusiness Class: 40kg\nFirst Class: 50kg"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1549607947617"
+      },
+      "conditions": "$ToCountry == \"UAE\"  && $FromCountry == \"Bahrain\" || $FromCountry == \"Kuwait\" || $FromCountry == \"Oman\" || $FromCountry == \"Saudi Arabia\" || $FromCountry == \"Azerbaijan\" || $FromCountry == \"Jordan\" || $FromCountry == \"Lebanon\"",
+      "dialog_node": "node_16_1549880804668",
+      "previous_sibling": "node_15_1549880665388"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Allowed Baggage Allowance is :  Economy Deal, Saver and Classic: 30kgEconomy Flex: 35kgBusiness Class: 40kgFirst Class: 50kg"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1549607947617"
+      },
+      "conditions": "$FromCountry == \"India\" || $FromCountry == \"Australia\" || $FromCountry == \"China\" || $FromCountry == \"Japan\" || $FromCountry == \"Pakistan\" || $FromCountry == \"Hong Kong\" || && $ToCountry == \"Africa\"",
+      "dialog_node": "node_1_1549873542814",
+      "previous_sibling": "node_6_1549541114814"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Allowed Baggage Allowance is :  \n\nEconomy Deal, Saver and Classic: 30kg\nEconomy Flex: 35kg\nBusiness Class: 40kg\nFirst Class: 50kg"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1549607947617"
+      },
+      "conditions": "$FromCountry == \"Italy\" ||  $ToCountry == \"China\"",
+      "dialog_node": "node_10_1549877604217",
+      "previous_sibling": "node_6_1549876456890"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Allowed Baggage Allowance is :  Economy Deal: Hand baggage only*Economy Classic and Saver: 30kg Economy Flex: 35kgBusiness Class: 40kgFirst Class: 50kg"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1549607947617"
+      },
+      "conditions": "$FromCountry == \"China\" && $ToCountry == \"Japan\" || $FromCountry == \"Japan\" && $ToCountry == \"China\"",
+      "dialog_node": "node_2_1549873774234",
+      "previous_sibling": "node_1_1549873542814"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Allowed Baggage Allowance is :                                                                                                 Economy Class: 2 bags, up to 23kg each                                                                 \nBusiness Class: 2 bags, up to 32kg each                                                                          First Class: 2 bags, up to 32kg each                                                                                                                                                                                                  Note: The weight of each item must not exceed 32kg                                                                                                                 "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1549607947617"
+      },
+      "conditions": "$FromCountry==\"US\" && $ToCountry==\"Canada\" || $FromCountry==\"Canada\" && $ToCountry==\"US\"",
+      "dialog_node": "node_9_1549452510151",
+      "previous_sibling": "node_1_1549451463124"
+    },
+    {
+      "type": "standard",
+      "title": "Allowed baggage Dimension",
+      "output": {
+        "text": {
+          "values": [
+            "The most common maximum size bag allowed is 62 (total) inches. A common size bag for checking through is: 27\" x 21\" x 14\" ."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_21_1546852622817"
+      },
+      "conditions": "#allowed_baggage_dimension_transalantic_flight",
+      "dialog_node": "node_8_1546441657976",
+      "previous_sibling": "node_3_1546430842320"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Allowed Baggage Allowance is :    Economy Deal, Saver and Classic: 30kg Economy Flex: 35kg Business: 40kg First: 50kg"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1549607947617"
+      },
+      "conditions": "$ToCountry == \"Philippines\" || $ToCountry == \"Pakistan\" || $ToCountry == \"Bangladesh\" && $FromCountry == \"Europe\" || $FromCountry == \"Azerbaijan\" || $FromCountry == \"Belarus\" || $FromCountry == \"Belgium\" || $FromCountry == \"France\" || $FromCountry == \"Germany\" || $FromCountry == \"Greece\" && $FromCountry == \"Ireland\" || $FromCountry == \"Italy\" || $FromCountry == \"Netherlands\" || $FromCountry == \"Russia Serbia\" || $FromCountry == \"Spain\" || $FromCountry == \"Switzerland\" || $FromCountry == \"Turkey\"  || $FromCountry == \"United Kingdom\"",
+      "dialog_node": "node_12_1549878636738",
+      "previous_sibling": "node_11_1549878461165"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "variable": "$ToCountry",
+      "dialog_node": "slot_5_1549451481745",
+      "previous_sibling": "slot_2_1549451463134"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Allowed Baggage Allowance is :  \n\nEconomy Deal, Saver and Classic: 30kg\nEconomy Flex: 35kg\nBusiness Class: 40kg\nFirst Class: 50kg"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1549607947617"
+      },
+      "conditions": "$FromCountry == \"India\" || $FromCountry == \"Pakistan\" && $ToCountry == \"Australia\"",
+      "dialog_node": "node_6_1549876456890",
+      "previous_sibling": "node_5_1549876107773"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Allowed Baggage Allowance is : \n\nEconomy Deal, Saver and Classic: 30kg\nEconomy Flex: 35kg\nBusiness Class: 40kg\nFirst Class: 50kg"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1549607947617"
+      },
+      "conditions": "$FromCountry == \"Asia\" || $FromCountry == \"China\" || $FromCountry == \"Hong Kong\" || $FromCountry == \"Indonesia\" || $FromCountry == \"Japan\" || $FromCountry == \"Malaysia\" || $FromCountry == \"Philippines\" || $FromCountry == \"Singapore\" || $FromCountry == \"South Korea\" || $FromCountry == \"Thailand\" || $FromCountry == \"Kazakhstan\"  && $ToCountry == \"Europe\" || $ToCountry == \"Azerbaijan\" || $ToCountry == \"Belarus\" || $ToCountry == \"Belgium\" || $ToCountry == \"France\" || $ToCountry == \"Germany\" || $ToCountry == \"Greece\" || $ToCountry == \"Ireland\" || $ToCountry == \"Italy\" || $ToCountry == \"Netherlands\" || $ToCountry == \"GCC\" || $ToCountry == \"UAE\" || $ToCountry == \"Bahrain\" || $ToCountry == \"Oman\"  || $ToCountry == \"Saudi Arabia\" || $ToCountry == \"Kuwait\"",
+      "dialog_node": "node_18_1549882520203",
+      "previous_sibling": "node_17_1549881038976"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Allowed Baggage Allowance is :  Economy Class: 40kgBusiness Class: 40kgFirst Class: 50kg"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1549607947617"
+      },
+      "conditions": "$FromCountry == \"Australia\" && $ToCountry == \"Lebanon\" || $FromCountry == \"Lebanon\" && $ToCountry == \"Australia\"",
+      "dialog_node": "node_5_1549540728621",
+      "previous_sibling": "node_4_1549533000592"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Allowed Baggage Allowance is :  \n\nEconomy Deal: Hand baggage only*\nEconomy Classic and Saver: 30kg \nEconomy Flex: 35kg\nBusiness Class: 40kg\nFirst Class: 50kg"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1549607947617"
+      },
+      "conditions": "$FromCountry == \"UAE\"  && $ToCountry == \"Bahrain\" || $ToCountry == \"Kuwait\" || $ToCountry == \"Oman\" || $ToCountry == \"Saudi Arabia\" || $ToCountry == \"Azerbaijan\" || $ToCountry == \"Jordan\" || $ToCountry == \"Lebanon\"",
+      "dialog_node": "node_15_1549880665388",
+      "previous_sibling": "node_14_1549879877204"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Allowed Baggage Allowance is : \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t   Economy Class: 40kg \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t Business Class: 40kg \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t First Class: 50kg                                                                                                                      Note: The weight of each item must not exceed 32kg  "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1549607947617"
+      },
+      "conditions": "$FromCountry==\"Africa\" && $ToCountry != \"US\" && $ToCountry != \"Canada\"",
+      "dialog_node": "node_3_1549532073242",
+      "previous_sibling": "node_9_1549452510151"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "variable": "$FromCountry",
+      "dialog_node": "slot_2_1549451463134",
+      "previous_sibling": "handler_9_1549606339117"
+    },
+    {
+      "type": "standard",
+      "title": "Hand Baggage allowance",
+      "output": {
+        "text": {
+          "values": [
+            "The hand baggage weight allowance is 7kgs."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_21_1546852622817"
+      },
+      "conditions": "#hand_baggage_weight",
+      "dialog_node": "node_3_1546430842320",
+      "digress_out": "allow_all",
+      "previous_sibling": "slot_5_1549451481745"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Allowed Baggage Allowance is :  \n\nEconomy Deal, Saver and Classic: 30kg\nEconomy Flex: 35kg\nBusiness Class: 40kg\nFirst Class: 50kg"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1549607947617"
+      },
+      "conditions": "$FromCountry == \"Australia\" || && $ToCountry == \"Europe\" || $ToCountry == \"Azerbaijan\" || $ToCountry == \"Belarus\" || $ToCountry == \"Belgium\" || $ToCountry == \"France\" || $ToCountry == \"Germany\" || $ToCountry == \"Greece\" && $ToCountry == \"Ireland\" || $ToCountry == \"Italy\" || $ToCountry == \"Netherlands\" || $ToCountry == \"Russia Serbia\" || $ToCountry == \"Spain\" || $ToCountry == \"Switzerland\" || $ToCountry == \"Turkey\"  || $ToCountry == \"United Kingdom\"",
+      "dialog_node": "node_5_1549876107773",
+      "previous_sibling": "node_4_1549874744297"
+    },
+    {
+      "type": "standard",
+      "title": "Allowed and Non-allowed items",
+      "output": {
+        "text": {
+          "values": [
+            "All sharp tools should be properly packed put in checked baggage. No liquid, gels, aerogels are allowed in hand baggage.\n"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_21_1546852622817"
+      },
+      "conditions": "#items_allowed_notallowed",
+      "dialog_node": "node_22_1546853270457",
+      "previous_sibling": "node_9_1546441762290"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Allowed Baggage Allowance is :   \n\nEconomy Deal, Saver and Classic: 30kg\nEconomy Flex : 35kg\nBusiness Class: 40kg\nFirst Class: 50kg"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1549607947617"
+      },
+      "conditions": "$FromCountry == \"GCC\" || $FromCountry == \"UAE\" || $FromCountry == \"Bahrain\" || $FromCountry == \"Kuwait\" || $FromCountry == \"Oman\" || $FromCountry == \"Saudi Arabia\" && $ToCountry == \"India\" || $ToCountry == \"Pakistan\" || $ToCountry == \"Nepal\" || $ToCountry == \"Bhutan\" || $ToCountry == \"Maldives\" || $ToCountry == \"Sri Lanka\" && $ToCountry != \"Bangladesh\"",
+      "dialog_node": "node_3_1549874248614",
+      "previous_sibling": "node_2_1549873774234"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": []
+        }
+      },
+      "parent": "node_21_1546852622817",
+      "metadata": {},
+      "event_name": "generic",
+      "dialog_node": "handler_9_1549606339117"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Kindly enter your query"
+      },
+      "parent": "slot_13_1546851952328",
+      "event_name": "focus",
+      "dialog_node": "handler_15_1546851952328",
+      "previous_sibling": "handler_14_1546851952328"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_13_1546851952328",
+      "context": {
+        "hand_baggage_weight": "#hand_baggage_weight"
+      },
+      "conditions": "#hand_baggage_weight",
+      "event_name": "input",
+      "dialog_node": "handler_14_1546851952328"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1505218696109",
+      "context": {
+        "flightdate": "@sys-date",
+        "FormattedDate": "<?@sys-date.reformatDateTime('MMMMM dd')?>"
+      },
+      "metadata": {},
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_11_1505218696109",
+      "previous_sibling": "handler_12_1505218696109"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter travel date"
+      },
+      "parent": "slot_10_1505218696109",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_12_1505218696109"
+    },
+    {
+      "type": "standard",
+      "title": "Yes for Dangerous Goods",
+      "output": {
+        "text": {
+          "values": [
+            "We are Sorry !! Please contact to Help desk. "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1507892147745",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "#yes",
+      "dialog_node": "node_13_1547720522898",
+      "previous_sibling": "node_14_1547720559800"
+    },
+    {
+      "type": "standard",
+      "title": "No for Dangerous Goods",
+      "output": {
+        "text": {
+          "values": [
+            "Please wait while check-in for PNR :- $pnrnumber and lastName $person _proceedcheckin_"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1507892147745",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#No",
+      "dialog_node": "node_14_1547720559800",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "You have not entered your lastName. Please enter your LastName"
+      },
+      "parent": "slot_23_1548315458999",
+      "event_name": "focus",
+      "dialog_node": "handler_25_1548315458999",
+      "previous_sibling": "handler_24_1548315458999"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_23_1548315458999",
+      "context": {
+        "person": "@sys-person"
+      },
+      "metadata": {},
+      "conditions": "@sys-person",
+      "event_name": "input",
+      "dialog_node": "handler_24_1548315458999"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Please enter To Country"
+      },
+      "parent": "slot_5_1549451481745",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_7_1549451481745",
+      "previous_sibling": "handler_6_1549451481745"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_5_1549451481745",
+      "context": {
+        "ToCountry": "@sys-location"
+      },
+      "conditions": "@sys-location",
+      "event_name": "input",
+      "dialog_node": "handler_6_1549451481745"
+    },
+    {
+      "type": "standard",
+      "title": "User's query",
+      "output": {
+        "text": {
+          "values": [
+            "                                                                                                                                                  \n                                                                                                                                                   \nIf you wanted to ask anything on Baby  Travel, You can enter here"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1546495707527",
+      "metadata": {},
+      "conditions": "#next",
+      "dialog_node": "node_23_1546854412125"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Please wait while fetch details for recommended flight from $destination to $arrival on $FormattedDate _flightDetails_"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1505216043847",
+      "conditions": "$destination !=  $arrival",
+      "dialog_node": "node_3_1505216167938",
+      "previous_sibling": "node_2_1505216060457"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Please provide different departure and destination city"
+          ],
+          "selection_policy": "sequential"
+        },
+        "context": {
+          "valid": false
+        }
+      },
+      "parent": "node_1_1505216043847",
+      "conditions": "$destination ==  $arrival",
+      "dialog_node": "node_2_1505216060457",
+      "previous_sibling": "slot_16_1505218737399"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1505216043847",
+      "conditions": "",
+      "dialog_node": "node_4_1505228684222",
+      "previous_sibling": "node_3_1505216167938"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1505216043847",
+      "metadata": {},
+      "variable": "$flightdate",
+      "dialog_node": "slot_10_1505218696109",
+      "previous_sibling": "node_2_1505228037119"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1505216043847",
+      "metadata": {},
+      "variable": "$arrival",
+      "dialog_node": "slot_16_1505218737399",
+      "previous_sibling": "slot_13_1505218721337"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1505216043847",
+      "metadata": {},
+      "variable": "$destination",
+      "dialog_node": "slot_13_1505218721337",
+      "previous_sibling": "slot_10_1505218696109"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_1_1505216043847",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "$valid == true",
+      "dialog_node": "node_2_1505228037119"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Please wait while sharing your boarding Pass on Whatsapp number $phoneNumber _shareWhatsapp_"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_14_1547720559800",
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#ShareOnWhatsApp",
+      "dialog_node": "node_11_1547707727459",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_12_1547707801162"
+    },
+    {
+      "type": "standard",
+      "title": "No, Don't Want to share",
+      "output": {
+        "text": {
+          "values": [
+            "Thanks For Check In "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_14_1547720559800",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "#NoForSharing",
+      "dialog_node": "node_12_1547707801162",
+      "previous_sibling": "node_10_1547707543554"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Please wait while check-in for PNR :- $pnrnumber _proceedcheckin_"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_14_1547720559800",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "$pnrnumber != null",
+      "dialog_node": "node_1_1548222814343",
+      "previous_sibling": "node_11_1547707727459"
+    },
+    {
+      "type": "standard",
+      "title": "Share on Email",
+      "output": {
+        "text": {
+          "values": [
+            "Please wait while sharing your boarding Pass on Your Email Id :  $emailId  _shareEmail_  "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_14_1547720559800",
+      "metadata": {},
+      "conditions": "#ShareOnEmail",
+      "dialog_node": "node_10_1547707543554"
+    },
+    {
+      "type": "frame",
+      "title": "Details for LastName",
+      "output": {},
+      "parent": "node_2_1507875893333",
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_21_1548315372410",
+      "digress_out": "allow_all",
+      "previous_sibling": "slot_4_1547705691615",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_2_1507875893333",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_20_1548315343081",
+      "previous_sibling": "node_21_1548315372410"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1507875893333",
+      "metadata": {},
+      "variable": "$pnrnumber",
+      "dialog_node": "slot_4_1547705691615"
+    },
+    {
+      "type": "slot",
+      "parent": "node_11_1547707727459",
+      "dialog_node": "slot_2_1548766763089",
+      "previous_sibling": "node_1_1548766760062"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_11_1547707727459",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_1_1548766760062"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "text": {
+          "values": [
+            "I didn't understand. You can try rephrasing.",
+            "Can you reword your statement? I'm not understanding.",
+            "I didn't get your meaning."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "text": {
+          "values": [
+            "                                                                                                                                                       \n                                                                                                                                                       \n Hi. Greeting for the day. Please choose following options _option_"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "person": null,
+        "arrival": null,
+        "emailId": null,
+        "ToCountry": null,
+        "pnrnumber": null,
+        "flightdate": null,
+        "FromCountry": null,
+        "destination": null,
+        "flightArray": [],
+        "phoneNumber": null,
+        "FormattedDate": "<?@sys-date.reformatDateTime('MMMMM dd')?>",
+        "initialDialog": true,
+        "passengerArray": []
+      },
+      "metadata": {},
+      "conditions": "#greeting",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "ddbe0a2d-4831-4e30-9293-b66539b29b4c",
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "status": "Available"
+}
